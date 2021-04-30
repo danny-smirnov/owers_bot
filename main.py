@@ -24,6 +24,8 @@ def welcome(message):
         if dq.check_user_in_db(message.chat.id) == False:
             dq.add_client(message.chat.id)
             dq.set_state(message.chat.id, st.MAIN)
+        else:
+            dq.set_state(message.chat.id, st.MAIN)
     except Exception as error:
         bot.send_message(message.chat.id, 'Произошла ошибка. Отправьте команду /start чтобы продолжить работу с ботом')
 
