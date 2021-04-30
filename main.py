@@ -3,7 +3,7 @@ from telebot import types
 import database_queries as dq
 import STATES as st
 
-token = '1648165788:AAFRiMscJTUD1Melo2xxsmQPaVXe657xTZQ'
+token = '1795920252:AAFtZkAe89kYjz9KbYCRX4RPqX5950LEpRA'
 
 bot = telebot.TeleBot(token)
 
