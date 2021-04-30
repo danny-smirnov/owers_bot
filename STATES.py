@@ -1,0 +1,3 @@
+MAIN = 0
+ADD_DEBT = 1
+DELETE_DEBT = 2
